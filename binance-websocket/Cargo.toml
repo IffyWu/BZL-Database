@@ -7,12 +7,20 @@ edition = "2021"
 name = "get_spot_1d_data"
 path = "src/get_spot_1d_data.rs"
 
+[[bin]]
+name = "get_cryptodata"
+path = "src/get_cryptodata.rs"
+
+[[bin]]
+name = "renew_cryptodata"
+path = "src/renew_cryptodata.rs"
+
 [lib]
 name = "binance_websocket"
 path = "src/lib.rs"
 
 [dependencies]
-tokio = { version = "1.42.0", features = ["full", "rt", "macros"] }
+tokio = { version = "1.42.0", features = ["full", "rt", "macros", "sync"] }
 tokio-tungstenite = { version = "0.26.1", features = ["native-tls"] }
 tokio-stream = "0.1.14"
 env_logger = "0.11.3"
@@ -26,3 +34,5 @@ serde = { version = "1.0.202", features = ["derive"] }
 clickhouse = "0.11.0"
 clickhouse-derive = "0.1.1"
 clap = { version = "4.5.4", features = ["derive"] }
+csv = "1.1"
+dotenv = "0.15.0"
