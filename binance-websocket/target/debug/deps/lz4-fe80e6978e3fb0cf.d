@@ -1,0 +1,12 @@
+/workspaces/BZL-Database/binance-websocket/target/debug/deps/liblz4-fe80e6978e3fb0cf.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/liblz4.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/decoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/encoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/block/mod.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/../README.md
+
+/workspaces/BZL-Database/binance-websocket/target/debug/deps/liblz4-fe80e6978e3fb0cf.rlib: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/liblz4.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/decoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/encoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/block/mod.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/../README.md
+
+/workspaces/BZL-Database/binance-websocket/target/debug/deps/lz4-fe80e6978e3fb0cf.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/liblz4.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/decoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/encoder.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/block/mod.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/../README.md
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/liblz4.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/decoder.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/encoder.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/block/mod.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lz4-1.28.0/src/../README.md:
