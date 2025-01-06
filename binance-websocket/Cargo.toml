@@ -1,0 +1,12 @@
+[package]
+name = "binance-websocket"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-tungstenite = { version = "0.26.1", features = ["native-tls"] }
+url = "2.5.4"
+futures-util = "0.3.31"
+serde_json = "1.0.134"
+chrono = "0.4.39"
