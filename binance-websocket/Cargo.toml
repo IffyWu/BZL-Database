@@ -3,13 +3,26 @@ name = "binance-websocket"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "get_spot_1d_data"
+path = "src/get_spot_1d_data.rs"
+
+[lib]
+name = "binance_websocket"
+path = "src/lib.rs"
+
 [dependencies]
 tokio = { version = "1.42.0", features = ["full", "rt", "macros"] }
 tokio-tungstenite = { version = "0.26.1", features = ["native-tls"] }
+tokio-stream = "0.1.14"
+env_logger = "0.11.3"
+log = "0.4.22"
 url = "2.5.4"
 futures-util = "0.3.31"
 serde_json = "1.0.134"
-chrono = "0.4.39"
+chrono = { version = "0.4.39", features = ["serde"] }
 reqwest = { version = "0.12.4", features = ["json"] }
 serde = { version = "1.0.202", features = ["derive"] }
-clickhouse = "0.13.1"
+clickhouse = "0.11.0"
+clickhouse-derive = "0.1.1"
+clap = { version = "4.5.4", features = ["derive"] }

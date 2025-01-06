@@ -5,7 +5,7 @@ use std::error::Error;
 const DB_HOST: &str = "45.116.76.87";
 const DB_PORT: u16 = 18123;
 const DB_USER: &str = "default";
-const DB_NAME: &str = "default";
+const DB_NAME: &str = "binance_1d_spot_data";
 
 // 创建数据库客户端
 pub fn create_client() -> Client {
